@@ -1,5 +1,5 @@
 .lead__title {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -16,6 +16,5 @@
     width: 288px;
     font-size: 40px;
     line-height: 110%;
-    margin-bottom: 0;
   }
 }
