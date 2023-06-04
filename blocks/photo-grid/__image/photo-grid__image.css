@@ -3,24 +3,24 @@
   max-width: 352px;
   min-height: 213px;
   max-height: 264px;
+  width: 100%;
 
 }
 
 @media screen and (min-width: 1281px) {
   .photo-grid__image {
-    width: 284px;
+    max-width: 284px;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .photo-grid__image {
-    width: 300px;
+    max-width: 300px;
   }
 }
 @media screen and (max-width: 1024px) {
   .photo-grid__image {
-    width: 350px;
-    min-height: 264px;
+    max-width: 350px;
   }
 }
 @media screen and (max-width: 768px) {
