@@ -6,34 +6,21 @@
   flex-direction: column;
   align-items: center;
   z-index: 1;
-  margin-top: 92px;
+  margin-left: 48px;
+  margin-right: 48px;
   width: 100%;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (max-width: 1030px) {
   .cover {
-    max-width: 1184px;
-    min-height: 740px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 660px) {
   .cover {
-    max-width: 1024px;
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    max-width: 768px;
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    max-width: 320px;
-    min-height: 200px;
+    margin-top: 65px;
+    margin-bottom: 65px;
   }
 }

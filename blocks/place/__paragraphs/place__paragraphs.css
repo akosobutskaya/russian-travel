@@ -6,3 +6,10 @@
   flex-direction: column;
   gap: 27px;
 }
+
+@media screen and (max-width: 660px) {
+  .place__paragraphs {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

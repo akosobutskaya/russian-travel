@@ -10,3 +10,9 @@
   margin-bottom: 0;
   align-self: flex-start;
 }
+
+@media screen and (max-width: 900px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}
