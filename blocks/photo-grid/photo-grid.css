@@ -3,12 +3,13 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin-top: 92px;
-  grid-gap: 14px;
+  grid-gap: 16px;
 }
 
 @media screen and (max-width: 1278px) {
   .photo-grid {
     grid-template-columns:  repeat(3, 300px);
+    grid-gap: 14px;
   }
 }
 
@@ -16,6 +17,7 @@
   .photo-grid {
     grid-template-columns:  repeat(2, 350px);
     margin-top: 88px;
+    grid-gap: 16px;
   }
 }
 
@@ -23,5 +25,6 @@
   .photo-grid {
     grid-template-columns: 288px;
     margin-top: 64px;
+    grid-gap: 12px;
   }
 }
