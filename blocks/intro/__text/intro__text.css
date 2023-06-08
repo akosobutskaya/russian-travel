@@ -12,14 +12,15 @@
 
 @media screen and (max-width: 900px) {
   .intro__text {
-    padding-left: 24px;
     max-width: 720px;
+    padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 750px) {
   .intro__text {
     padding-left: 16px;
+    padding-right: 16px;
     max-width: 288px;
   }
 }

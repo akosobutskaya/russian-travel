@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 750px) {
   .intro__list {
     padding-left: 16px;
   }

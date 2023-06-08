@@ -14,12 +14,12 @@
 @media screen and (max-width: 900px) {
   .intro__title {
     margin-top: 88px;
-    padding-left: 24px;
     max-width: 720px;
+    padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 750px) {
   .intro__title {
     max-width: 288px;
     font-size: 32px;
@@ -27,6 +27,7 @@
     margin-bottom: 0;
     margin-top: 64px;
     padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
